@@ -1,0 +1,30 @@
+{
+  "name": "Package",
+  "version": "1.0.0",
+  "description": "Hello, JS plugin!",
+  "main": "/src/Package.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/Package.git"
+  },
+  "keywords": [
+    //
+  ],
+  "author": "Your name (@twitterhandle)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/username/Package/issues"
+  },
+  "homepage": "https://github.com/username/Package#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  }
+}
